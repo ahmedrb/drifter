@@ -6,11 +6,9 @@ Gem::Specification.new do |s|
   s.name        = "drifter"
   s.version     = Drifter::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = "http://rubygems.org/gems/drifter"
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["Ahmed Adam"]
+  s.homepage    = "http://github.com/ahmedrb/drifter"
+  s.summary     = %q{Simple geocoding library for ruby}
 
   s.rubyforge_project = "drifter"
 
@@ -18,4 +16,6 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+
+  s.add_dependency 'json', '~> 1.4.6'
 end

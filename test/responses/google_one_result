@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "locality", "political" ],
+    "formatted_address": "Westminster, London, UK",
+    "address_components": [ {
+      "long_name": "London",
+      "short_name": "London",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Westminster",
+      "short_name": "Westminster",
+      "types": [ "administrative_area_level_3", "political" ]
+    }, {
+      "long_name": "Greater London",
+      "short_name": "Greater London",
+      "types": [ "administrative_area_level_2", "political" ]
+    }, {
+      "long_name": "England",
+      "short_name": "England",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "United Kingdom",
+      "short_name": "GB",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 51.5001524,
+        "lng": -0.1262362
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 51.3493528,
+          "lng": -0.3783580
+        },
+        "northeast": {
+          "lat": 51.7040647,
+          "lng": 0.1502295
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 51.3493528,
+          "lng": -0.3783580
+        },
+        "northeast": {
+          "lat": 51.7040647,
+          "lng": 0.1502295
+        }
+      }
+    }
+  } ]
+}
