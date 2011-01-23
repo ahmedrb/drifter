@@ -18,4 +18,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'json', '~> 1.4.6'
+  s.add_development_dependency 'fakeweb'
 end
