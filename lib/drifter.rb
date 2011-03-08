@@ -1,12 +1,10 @@
 require 'rubygems'
-require 'drifter/distance/haversine'
 require 'drifter/geocoders'
 require 'drifter/location'
 
 module Drifter
 
   @@default_geocoder = :google
-  @@default_units = :miles
   @@last_error = nil
 
 
@@ -21,19 +19,6 @@ module Drifter
   # Drifter::Geocoders::Yahoo.app_id=()
   def self.default_geocoder=(value)
     @@default_geocoder = value
-  end
-
-
-  # Returns the default units for distance calculations
-  def self.default_units
-    @@default_units
-  end
-
-
-  # Sets the default units for distance calculations.
-  # Supported values are :miles and :kms
-  def self.default_units=(value)
-    @@default_units=value
   end
 
 

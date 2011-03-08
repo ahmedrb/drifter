@@ -81,16 +81,6 @@ and sent as a query string parameter e.g. Yahoo's service returns a timezone if 
   >> paris.data["timezone"]
   => "Europe/paris"
 
-Finally, Drifter::Location objects have a distance_to() method
-
-  >> london.distance_to(bh)
-  => 5438.60013996461
-
-Distances are returned in miles by default. You can change this per request or change the default
-
-  >> Drifter.default_units = :km
-  >> london.distance_to(bh, :units => :miles)
-
 Drifter.geocode() always returns an array if the request was processed successfully by the
 geocoding service. An empty array indicates that the service returned no results.
 

@@ -1,4 +1,3 @@
-require 'drifter/location/locatable'
 module Drifter
   # Drifter.geocode() returns an array of Drifter::Location objects
   # Depending on the geocoder used, Location objects are populated
@@ -11,7 +10,6 @@ module Drifter
   # Additional data returned by the geocoder can be accessed via the
   # data() method
   class Location
-    include Drifter::Location::Locatable
 
     attr_accessor :raw_data
     attr_accessor :raw_data_format
